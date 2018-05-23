@@ -60,3 +60,4 @@ $app->put('/page/{id}','PageController@update');
 $app->delete('/page/{id}','PageController@destroy');
 
 $app->post('/login','UserController@login');
+$app->get('/doc','UserController@doc');

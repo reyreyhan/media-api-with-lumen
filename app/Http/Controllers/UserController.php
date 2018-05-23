@@ -72,5 +72,10 @@ class UserController extends Controller
       }
     }
 
+    public function doc() {
+      //echo "tes";
+      return view('vendor.swagger-lume.index');
+    }
+
     //
 }
